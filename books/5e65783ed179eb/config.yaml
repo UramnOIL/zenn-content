@@ -1,0 +1,20 @@
+title: "Go言語でつくるマイクラサーバー入門"
+summary: |-
+  Go製のMinecraft: Bedrock Edition向けサーバーソフトウェアであるDragonfly(https://github.com/df-mc/dragonfly)の入門本です。
+  ハンドブック的立ち位置でDragonflyの特徴から起動、機能拡張の手順を基礎から応用まで深く紹介。
+topics:
+  - "go"
+  - "minecraft"
+  - "bedrock"
+  - "dragonfly"
+published: false
+price: 0
+toc_depth: 2
+chapters:
+  - "300d63"
+  - "ce8b71"
+  - "e925a8"
+  - "556375"
+  - "b7c7cd"
+  - "f78555"
+  - "5d759b"
