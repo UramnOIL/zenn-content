@@ -11,10 +11,10 @@ published: false
 price: 0
 toc_depth: 2
 chapters:
-  - "300d63"
-  - "ce8b71"
-  - "e925a8"
-  - "556375"
-  - "b7c7cd"
-  - "f78555"
-  - "5d759b"
+  - "at_first"
+  - "what_is_dragonfly"
+  - "lets_start"
+  - "create_server"
+  - "event_system"
+  - "command_system"
+  - "form_system"
