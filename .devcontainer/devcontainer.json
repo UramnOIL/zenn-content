@@ -1,6 +1,6 @@
 {
 	"name": "Node.js",
-	"image": "mcr.microsoft.com/devcontainers/javascript-node:18-bullseye"
+	"image": "mcr.microsoft.com/devcontainers/javascript-node:16-bullseye"
 
 	// Features to add to the dev container. More info: https://containers.dev/implementors/features.
 	// "features": {},
