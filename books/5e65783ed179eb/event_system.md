@@ -99,7 +99,7 @@ func (h *HogeHandler) HandleJumb() {}
 
 https://github.com/df-mc/dragonfly/blob/5e79f9e8c55bbe27f13845ac52042942a639e55b/server/player/handler.go#L18-L132
 
-一般的なオブジェクト指向言語にある処理の移譲を行う継承がGoにはないため、Goの言語機能である[構造体の埋め込み](https://gobyexample.com/struct-embedding)を使って目的のハンドラ以外の処理をDragonflyが用意している空実装の`NopHandler`へアノニマスフィールドという形で移譲します。埋め込まれた構造体のフィールドやメソッドがコンパイル時に自動的に親の構造体に展開されるというイメージです。
+一般的なオブジェクト指向言語にある処理の移譲を行う継承がGoにはないため、Goの言語機能である[構造体の埋め込み](https://gobyexample.com/struct-embedding)を使って目的のハンドラ以外の処理をDragonflyが用意している空実装の`NopHandler`へ移譲します。
 明示的にメソッドを上書きすることで`NopHandler`に委譲することなく、任意の処理を実装することができます。
 
 https://github.com/df-mc/dragonfly/blob/5e79f9e8c55bbe27f13845ac52042942a639e55b/server/player/handler.go#L137-L172
